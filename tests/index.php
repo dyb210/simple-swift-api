@@ -1,6 +1,6 @@
 ﻿<?php
 //include the httpful package.
-include('./httpful-0.2.0.phar');
+include('../lib/httpful-0.2.0.phar');
 $pattern = '/[ ,\n]/';
 //////获取token
 $url_base = 'http://192.168.213.60:5000/v2.0/';

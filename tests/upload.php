@@ -1,6 +1,6 @@
 ﻿<?php
 //include the httpful package.
-include('./httpful-0.2.0.phar');
+include('../lib/httpful-0.2.0.phar');
 if(!isset($_FILES) || !isset($_POST['token'])) {
 	die('No file specified.');
 }
